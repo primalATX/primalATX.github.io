@@ -449,6 +449,16 @@ a:after {
 	font-size: 25px;
 }
 
+#responsiveEmail {
+  margin-top: -30px;
+}
+
+@media only screen and (max-width: 500px) {
+
+   #responsiveEmail { font-size: 15px !important; }
+
+}
+
 
 /* Section Dividers Backgrounds */
 
