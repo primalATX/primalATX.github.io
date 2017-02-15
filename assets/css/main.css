@@ -665,12 +665,25 @@ a:after {
 	.header{background-attachment: scroll;}
 }
 
-@media screen and (max-width:769px) {
-	#headerwrap h1 {
-		font-size: 80px;
+@media screen and (max-width:902px) {
+  #first {
+    margin-top: 80px !important;
+  }
+}
+
+@media screen and (max-width:736px) {
+	#first {
+    margin-top: 25px;
+		font-size: 80px!important;
 	}
 	#headerwrap p {
 		font-size: 30px;
 		line-height: 38px;
 	}
+}
+
+@media screen and (max-width:398px) {
+  #first {
+    margin-top: 25px !important;
+  }
 }
