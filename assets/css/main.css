@@ -315,7 +315,7 @@ a:after {
   line-height: 2em;
   font-size: 7em;
   padding: 2px .2em;
-  border: 2px solid white;
+  border: 3px solid #6EF3D6;
   border-radius: 10px;
 }
 
@@ -324,13 +324,12 @@ a:after {
   font-weight: 700 !important;
   letter-spacing: 1px;
   font-size: 30px;
-  color: white;
+  color: #6EF3D6;
 }
 
 #godown:hover {
-  border-color: #2772DB;
-  background: #2772DB;
-  color: white;
+  background: #6EF3D6;
+  color: rgb(60,60,60);
 }
 
 #headerwrap p {
